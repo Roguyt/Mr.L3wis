@@ -1,0 +1,30 @@
+{
+  "name": "Mr.L3wis",
+  "version": "1.0.0",
+  "main": "src/bot.js",
+  "repository": "https://github.com/Roguyt/Mr.L3wis.git",
+  "author": "Roguyt <git@clmntw.fr>",
+  "license": "GPL-3.0",
+  "private": true,
+  "scripts": {
+    "start:development": "cross-env NODE_ENV=development nodemon src/bot.js",
+    "start:production": "cross-env NODE_ENV=production node src/bot.js",
+    "lint": "eslint ./",
+    "test": "echo 'No test yet.'"
+  },
+  "dependencies": {
+    "node-epicsgg": "^1.2.0",
+    "typedi": "^0.8.0",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "cross-env": "^6.0.3",
+    "eslint": "^6.7.2",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-prettier": "^6.7.0",
+    "eslint-plugin-import": "^2.19.1",
+    "husky": "^3.1.0",
+    "prettier": "^1.19.1",
+    "pretty-quick": "^2.0.1"
+  }
+}
